@@ -2,8 +2,6 @@
 
 Job Portal is a MERN Stack based web app which helps in streamlining the flow of job application process. It allows users to select there roles (applicant/recruiter), and create an account. In this web app, login session are persistent and REST APIs are securely protected by JWT token verification. After logging in, a recruiter can create/delete/update jobs, shortlist/accept/reject applications, view resume and edit profile. And, an applicant can view jobs, perform fuzzy search with various filters, apply for jobs with an SOP, view applications, upload profile picture, upload resume and edit profile. Hence, it is an all in one solution for a job application system.
 
-Demo: [Click Here](https://www.youtube.com/watch?v=lIrN-LbbBnw&ab_channel=ShlokPandey)
-
 Directory structure of the web app is as follows:
 
 ```
@@ -14,47 +12,17 @@ Directory structure of the web app is as follows:
 - frontend/
 - README.md
 ```
+**Image : 1** <bt><br>
+<img width="960" alt="img" src="https://github.com/httpsashu404/Jobsheeker/assets/159816902/e48e99a9-89e3-4e51-a7fc-e134f89faf0f"> <bt><br>
+**Image : 1** <bt><br>
+<img width="960" alt="img1" src="https://github.com/httpsashu404/Jobsheeker/assets/159816902/0ae4fd0d-6911-4c4d-8622-272289d7a5da"> <bt><br>
+**Image : 1** <bt><br>
+<img width="960" alt="img2" src="https://github.com/httpsashu404/Jobsheeker/assets/159816902/be6e33ac-62ef-4c61-a6e6-72b90fac1fd4"> <bt><br>
+**Image : 1** <bt><br>
+<img width="960" alt="img3" src="https://github.com/httpsashu404/Jobsheeker/assets/159816902/51e3cf90-6fd9-4c27-87b1-02a3cce493d8"> <bt><br>
+**Image : 1** <bt><br>
+<img width="960" alt="img4" src="https://github.com/httpsashu404/Jobsheeker/assets/159816902/4bf60e0f-78e3-4f4c-a585-f5870f494119"> <bt><br>
 
-## Instructions for initializing web app:
-
-- Install Node JS, MongoDB in the machine.
-- Start MongoDB server: `sudo service mongod start`
-- Move inside backend directory: `cd backend`
-- Install dependencies in backend directory: `npm install`
-- Start express server: `npm start`
-- Backend server will start on port 4444.
-- Now go inside frontend directory: `cd ..\frontend`
-- Install dependencies in frontend directory: `npm install`
-- Start web app's frontend server: `npm start`
-- Frontend server will start on port 3000.
-- Now open `http://localhost:3000/` and proceed creating jobs and applications by signing up in required categories.
-
-## Dependencies:
-
-- Frontend
-  - @material-ui/core
-  - @material-ui/icons
-  - @material-ui/lab
-  - axios
-  - material-ui-chip-input
-  - react-phone-input-2
-- Backend
-  - bcrypt
-  - body-parser
-  - connect-flash
-  - connect-mongo
-  - cors
-  - crypto
-  - express
-  - express-session
-  - jsonwebtoken
-  - mongoose
-  - mongoose-type-email
-  - multer
-  - passport
-  - passport-jwt
-  - passport-local
-  - uuid
 
 # Machine Specifications
 
